@@ -117,4 +117,4 @@ def main():
             
 
 main()
-st.write("🔹 Powered by AI Health Assistant")
+st.write("Powered by AI Health Assistant")
