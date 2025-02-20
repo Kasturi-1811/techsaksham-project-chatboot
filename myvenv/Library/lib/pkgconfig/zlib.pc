@@ -1,0 +1,13 @@
+prefix=D:/health assistant chatboot/myvenv/Library
+exec_prefix=D:/health assistant chatboot/myvenv/Library
+libdir=D:/health assistant chatboot/myvenv/Library/lib
+sharedlibdir=D:/health assistant chatboot/myvenv/Library/lib
+includedir=D:/health assistant chatboot/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
